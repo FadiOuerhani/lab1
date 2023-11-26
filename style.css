@@ -1,0 +1,87 @@
+body{
+ display: flex;
+ flex-direction: column ;
+ justify-content: center;
+ text-align: center;
+
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+}
+.utilisateur{
+    display: flex;
+    padding-right: 20px;
+    margin-bottom: 8px;
+}
+
+.utilisateur input{
+    width: 70%;
+    margin-left:20px;
+}
+
+.utilisateur label{
+    width: 20%;
+    margin-left:20px;
+}
+
+.password{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.password input{
+    width: 70%;
+    margin-left:28px;
+}
+
+.password label{
+    width:20%
+}
+
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.connect{
+    background-color: #000;
+    color: #fff;
+    margin-top:10px;
+    font-size: larger;
+    font-style: normal;
+}
+.edd{
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    font-size: larger;
+    font-style: normal;
+}
+.sin{
+    background-color: beige;
+    margin-top: 10px;
+    font-size: larger;
+    font-style: oblique;
+}
+.sportif{
+    margin-top: 20px;
+    font-size:larger;
+    font-style: normal;
+}
+.coach{
+margin-top: 10px;
+font-size: large;
+font-style: normal;
+tab-size: 20px;
+}
+
+
+
